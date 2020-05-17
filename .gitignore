@@ -35,9 +35,6 @@ build/
 ######################
 /log/
 */target/**
-.mvn
-/mvnw
-/mvnw.cmd
 
 ######################
 # Maven Wrapper
