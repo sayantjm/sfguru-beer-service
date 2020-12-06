@@ -2,3 +2,6 @@
 # Spring Boot Beer Service
 
 Spring Boot Microservice example
+
+## Parameters for using mySQL
+-Dspring.profiles.active=localmysql
