@@ -12,6 +12,8 @@ import sayant.springframeworkguru.sfgurubeerservice.events.NewInventoryEvent;
 import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
 import sayant.springframeworkguru.sfgurubeerservice.repository.BeerRepository;
 
+import javax.transaction.Transactional;
+
 /**
  * Created by sayantjm on 23/1/21
  */
@@ -23,6 +25,7 @@ public class BrewBeerListener {
     private final BeerRepository beerRepository;
     private final JmsTemplate jmsTemplate;
 
+    @Transactional
     @JmsListener(destination = JmsConfig.BREWING_REQUEST_QUEUE)
     public void listen(BrewBeerEvent event) {
         BeerDto beerDto = event.getBeerDto();
