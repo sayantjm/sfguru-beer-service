@@ -49,10 +49,10 @@ class BeerControllerTest {
     @Test
     void saveNewBeer() throws Exception {
 
-        given(beerService.saveNewBeer(any())).willReturn(getValidBeerDto());
-
         BeerDto beerDto = getValidBeerDto();
         String beerToJson = objectMapper.writeValueAsString(beerDto);
+
+        given(beerService.saveNewBeer(any())).willReturn(getValidBeerDto());
 
         mockMvc.perform(post("/api/v1/beer/")
                 .contentType(MediaType.APPLICATION_JSON)
