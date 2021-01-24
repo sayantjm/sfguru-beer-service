@@ -1,4 +1,4 @@
-package sayant.springframeworkguru.sfgurubeerservice.events;
+package sayant.springframeworkguru.common.events;
 
 import lombok.*;
 import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
