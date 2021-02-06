@@ -2,7 +2,7 @@ package sayant.springframeworkguru.sfgurubeerservice.mappers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import sayant.springframeworkguru.sfgurubeerservice.domain.Beer;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
+import sayant.springframeworkguru.brewery.model.BeerDto;
 import sayant.springframeworkguru.sfgurubeerservice.service.BeerInventoryService;
 
 /**

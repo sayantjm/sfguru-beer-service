@@ -1,9 +1,9 @@
 package sayant.springframeworkguru.sfgurubeerservice.service;
 
 import org.springframework.data.domain.PageRequest;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerPagedList;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerStyleEnum;
+import sayant.springframeworkguru.brewery.model.BeerDto;
+import sayant.springframeworkguru.brewery.model.BeerPagedList;
+import sayant.springframeworkguru.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

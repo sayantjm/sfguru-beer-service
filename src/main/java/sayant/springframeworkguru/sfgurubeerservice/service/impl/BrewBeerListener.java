@@ -7,9 +7,9 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 import sayant.springframeworkguru.sfgurubeerservice.config.JmsConfig;
 import sayant.springframeworkguru.sfgurubeerservice.domain.Beer;
-import sayant.springframeworkguru.common.events.BrewBeerEvent;
-import sayant.springframeworkguru.common.events.NewInventoryEvent;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
+import sayant.springframeworkguru.brewery.model.events.BrewBeerEvent;
+import sayant.springframeworkguru.brewery.model.events.NewInventoryEvent;
+import sayant.springframeworkguru.brewery.model.BeerDto;
 import sayant.springframeworkguru.sfgurubeerservice.repository.BeerRepository;
 
 import javax.transaction.Transactional;

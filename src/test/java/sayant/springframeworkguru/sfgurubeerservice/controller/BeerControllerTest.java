@@ -8,8 +8,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import sayant.springframeworkguru.sfgurubeerservice.bootstrap.BeerLoader;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerStyleEnum;
+import sayant.springframeworkguru.brewery.model.BeerDto;
+import sayant.springframeworkguru.brewery.model.BeerStyleEnum;
 import sayant.springframeworkguru.sfgurubeerservice.service.BeerService;
 
 import java.math.BigDecimal;

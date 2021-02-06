@@ -1,4 +1,4 @@
-package sayant.springframeworkguru.sfgurubeerservice.model;
+package sayant.springframeworkguru.brewery.model;
 
 /**
  * Created by sayantjm on 17/5/20

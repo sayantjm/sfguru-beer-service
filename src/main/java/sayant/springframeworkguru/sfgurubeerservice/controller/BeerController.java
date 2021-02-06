@@ -6,9 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerPagedList;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerStyleEnum;
+import sayant.springframeworkguru.brewery.model.BeerDto;
+import sayant.springframeworkguru.brewery.model.BeerPagedList;
+import sayant.springframeworkguru.brewery.model.BeerStyleEnum;
 import sayant.springframeworkguru.sfgurubeerservice.service.BeerService;
 
 import java.util.UUID;

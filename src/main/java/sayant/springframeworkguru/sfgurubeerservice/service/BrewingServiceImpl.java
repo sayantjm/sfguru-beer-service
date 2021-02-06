@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import sayant.springframeworkguru.sfgurubeerservice.config.JmsConfig;
 import sayant.springframeworkguru.sfgurubeerservice.domain.Beer;
-import sayant.springframeworkguru.common.events.BrewBeerEvent;
+import sayant.springframeworkguru.brewery.model.events.BrewBeerEvent;
 import sayant.springframeworkguru.sfgurubeerservice.mappers.BeerMapper;
 import sayant.springframeworkguru.sfgurubeerservice.repository.BeerRepository;
 

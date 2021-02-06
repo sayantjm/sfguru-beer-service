@@ -1,4 +1,4 @@
-package sayant.springframeworkguru.sfgurubeerservice.model;
+package sayant.springframeworkguru.brewery.model;
 
 
 import com.fasterxml.jackson.annotation.JsonCreator;

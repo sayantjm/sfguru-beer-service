@@ -9,9 +9,9 @@ import org.springframework.util.StringUtils;
 import sayant.springframeworkguru.sfgurubeerservice.controller.NotFoundException;
 import sayant.springframeworkguru.sfgurubeerservice.domain.Beer;
 import sayant.springframeworkguru.sfgurubeerservice.mappers.BeerMapper;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerDto;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerPagedList;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerStyleEnum;
+import sayant.springframeworkguru.brewery.model.BeerDto;
+import sayant.springframeworkguru.brewery.model.BeerPagedList;
+import sayant.springframeworkguru.brewery.model.BeerStyleEnum;
 import sayant.springframeworkguru.sfgurubeerservice.repository.BeerRepository;
 import sayant.springframeworkguru.sfgurubeerservice.service.BeerService;
 

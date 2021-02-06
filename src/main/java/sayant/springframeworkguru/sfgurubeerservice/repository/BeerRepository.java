@@ -4,7 +4,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import sayant.springframeworkguru.sfgurubeerservice.domain.Beer;
-import sayant.springframeworkguru.sfgurubeerservice.model.BeerStyleEnum;
+import sayant.springframeworkguru.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 
