@@ -4,4 +4,4 @@
 Spring Boot Microservice example
 
 ## Parameters for using mySQL
--Dspring.profiles.active=localmysql
+-Dspring.profiles.active=localmysql,local-discovery
