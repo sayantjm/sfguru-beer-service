@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import sayant.springframeworkguru.sfgurubeerservice.service.impl.BeerInventoryServiceFailoverFeignClientImpl;
 import sayant.springframeworkguru.sfgurubeerservice.service.impl.BeerInventoryServiceRestTemplateImpl;
 import sayant.springframeworkguru.sfgurubeerservice.service.model.BeerInventoryDto;
 
@@ -14,7 +15,7 @@ import java.util.UUID;
 /**
  * Created by sayantjm on 6/3/21
  */
-@FeignClient(name="inventory-service")
+@FeignClient(name="inventory-service", fallback = BeerInventoryServiceFailoverFeignClientImpl.class)
 public interface BeerInventoryServiceFeignClient {
 
     @RequestMapping(method = RequestMethod.GET, value = BeerInventoryServiceRestTemplateImpl.INVENTORY_PATH)
